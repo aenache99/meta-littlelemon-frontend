@@ -1,0 +1,49 @@
+.image {
+    width: 20rem;
+    border-radius: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.hero-section {
+    background-color: #495e57;
+    font-family: 'Markazi Text', serif;
+    height: max-content;
+}
+
+.title {
+    color: #F4CE14;
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subtitle {
+    color: #EDEFEE;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.description {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25rem;
+    color: #EDEFEE;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+    .hero-section-img {
+        display: none;
+    }
+
+    .hero-section {
+        background-image: url("../../public/images/restaurantfood.jpg");
+        background-position: left;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-section-img {
+        width: 17rem;
+    }
+}

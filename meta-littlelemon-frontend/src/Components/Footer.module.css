@@ -1,0 +1,41 @@
+.footer {
+    background-color: #495e57;
+    width: 100%;
+    height: max-content;
+}
+
+.list {
+    margin: 0;
+    list-style-type: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #edefee;
+    line-height: 1.5;
+}
+
+.list a {
+    text-decoration: none;
+    color: #edefee;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.contact {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .image {
+        display: none;
+    }
+
+    .list {
+        margin-bottom: 1rem;
+    }
+}
